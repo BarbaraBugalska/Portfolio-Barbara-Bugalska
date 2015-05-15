@@ -60,6 +60,17 @@ img {
 .logo {
   width: 72px; }
 
+.ex {
+  position: fixed;
+  z-index: 5;
+  left: 20px;
+  top: 20px;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px; }
+  .ex:hover {
+    opacity: 0.8; }
+
 /* 	Author: Barbara Bugalska
 		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
 		Student ID: D14126227
