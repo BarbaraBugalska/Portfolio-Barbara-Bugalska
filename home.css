@@ -1,0 +1,341 @@
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+    Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://sass-lang.com/guide
+        http://www.google.com/fonts   
+*/
+body {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  background: white;
+  padding: 0; }
+
+nav, footer {
+  font-family: 'Droid Serif', Georgia, Times, serif; }
+
+img {
+  max-width: 100%; }
+
+#page {
+  display: none;
+  background: white;
+  padding-top: 20px; }
+
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+		Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://getbootstrap.com/components/#nav
+*/
+.navbar-default .navbar-brand.active {
+  background-color: #ffff66;
+  color: #404040;
+  text-align: middle;
+  float: none; }
+
+.navbar-default {
+  font-family: inherit;
+  padding: 65px 0 65px;
+  text-align: center; }
+  .navbar-default h1 {
+    font-size: 12px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    width: auto;
+    color: black; }
+  .navbar-default h2 {
+    max-width: 280px;
+    margin: 0 auto;
+    color: black; }
+
+.separator {
+  width: 40px;
+  height: 1px;
+  margin: 15px auto;
+  display: block;
+  background-color: black; }
+
+.logo {
+  width: 72px; }
+
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+		Student ID: D14126227
+		Date: 2015/04/19
+		
+
+*/
+footer {
+  background-color: #eee;
+  margin-top: 15px;
+  padding: 30px 0;
+  border-color: black; }
+  footer p {
+    text-align: center;
+    float: none;
+    padding: 5px 0 5px 0;
+    font-size: 12px;
+    color: black; }
+  footer a {
+    text-decoration: none;
+    color: #632e3b; }
+
+.logo_second1 {
+  text-align: center;
+  padding-bottom: 15px; }
+
+.indexPage {
+  margin-bottom: 50px; }
+
+.portfolio {
+  margin-top: 10px;
+  margin-left: 15px; }
+  .portfolio .caption {
+    max-width: 400px;
+    margin: 0 auto; }
+  .portfolio h3 {
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0; }
+  .portfolio p {
+    margin-bottom: 1px; }
+  .portfolio .front {
+    width: 100% !important;
+    height: 100% !important; }
+  .portfolio .disco {
+    overflow: visible;
+    height: 100%; }
+  .portfolio .back .backContent {
+    padding-left: 10px;
+    max-width: 400px;
+    margin: 0 auto; }
+  .portfolio .home img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' \a     xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'>\a     <feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' />\a     </filter></svg>#greyscale"); }
+    .portfolio .home img:hover {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%); }
+
+.caption {
+  text-align: center; }
+  .caption h2 {
+    font-size: 14px;
+    font-weight: 600; }
+  .caption p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0; }
+
+.thumbnail {
+  border: none; }
+
+.PortfolioPieces {
+  padding: 25px 0 25px 0; }
+
+.mySilentFactory .thumbnail {
+  border: none; }
+
+.description > .thumbnail > .text > p, .description > .thumbnail > .text > h4 {
+  color: #737373;
+  text-align: right;
+  font-weight: 600; }
+
+.text p {
+  margin: 25px 35px 25px 50%; }
+.text h4 {
+  margin: 5px 35px 5px 50%; }
+
+/*}
+//contact page
+.contact{
+  margin-bottom: 170px;
+  color: $brand-color;
+  text-align: center;
+  h1{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px
+  }
+  .glyphicon, .fa-users{
+    font-size: 30px;
+    color: darken($brand-color, 20%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+  .fa-spotify, .fa-youtube-square, .fa-facebook-official, .fa-twitter-square{
+    font-size: 40px;
+    color: $brand-color;
+    padding: 10px;
+    &:hover{
+      color: $brand-yellow;
+      background-color: $brand-color;
+    }
+  }
+}
+.KeepInTouch {
+  padding: 10px 10% 20px 10%;
+  background-color: lighten($brand-color, 35%);
+  hr{
+    border-color: $brand-color;
+  }
+}
+*/
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+		Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://getbootstrap.com/css/#forms
+		https://css-tricks.com/snippets/css/glowing-blue-input-highlights/
+		https://css-tricks.com/snippets/css/style-placeholder-text/
+
+*/
+label {
+  font-weight: 600; }
+
+.form-control {
+  box-shadow: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0; }
+  .form-control:focus {
+    border-color: #999999;
+    box-shadow: 0 0 5px #ffff33; }
+
+.contactButton {
+  font-weight: bold;
+  padding: 6px 30px;
+  background-color: #ffff66; }
+  .contactButton:hover {
+    background-color: yellow; }
+  .contactButton:focus {
+    border-color: #999999;
+    box-shadow: 0 0 5px #ffff33; }
+
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+    Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+*/
+@media screen and (max-width: 700px) {
+  .text > p {
+    margin: 25px auto 25px auto; }
+
+  .description > .thumbnail > .text > p {
+    text-align: left;
+    font-weight: 500; } }
+@media screen and (max-width: 769px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #666666; }
+    .navbar-default .navbar-nav .open .dropdown-menu li a {
+      color: #e6e6e6; }
+
+  .contact, #home {
+    margin-bottom: 25px; }
+
+  .right {
+    font-size: 14px; }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a {
+    background-color: #ffff66; }
+
+  .flexbox .col > p {
+    font-size: 14px; } }
+@media screen and (max-width: 1000px) {
+  .flexbox .col {
+    flex: 0 0 100%; }
+
+  .f1 .col:nth-child(1) {
+    -moz-flex-order: 0;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0; }
+
+  .f1 .col:nth-child(2) {
+    -moz-flex-order: 11;
+    -webkit-order: 11;
+    -ms-flex-order: 11;
+    order: 11; }
+
+  .f1 .col:nth-child(3) {
+    -moz-flex-order: 1;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1; }
+
+  .f1 .col:nth-child(4) {
+    -moz-flex-order: 2;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2; }
+
+  .f1 .col:nth-child(5) {
+    -moz-flex-order: 4;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4; }
+
+  .f1 .col:nth-child(6) {
+    -moz-flex-order: 3;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3; }
+
+  .f1 .col:nth-child(7) {
+    -moz-flex-order: 5;
+    -webkit-order: 5;
+    -ms-flex-order: 5;
+    order: 5; }
+
+  .f1 .col:nth-child(8) {
+    -moz-flex-order: 6;
+    -webkit-order: 6;
+    -ms-flex-order: 6;
+    order: 6; }
+
+  .f1 .col:nth-child(9) {
+    background-color: #ffff66;
+    color: #404040;
+    -moz-flex-order: 8;
+    -webkit-order: 8;
+    -ms-flex-order: 8;
+    order: 8; }
+
+  .f1 .col:nth-child(10) {
+    -moz-flex-order: 7;
+    -webkit-order: 7;
+    -ms-flex-order: 7;
+    order: 7; }
+
+  .f1 .col:nth-child(11) {
+    -moz-flex-order: 9;
+    -webkit-order: 9;
+    -ms-flex-order: 9;
+    order: 9; }
+
+  .f1 .col:nth-child(12) {
+    background-color: #404040;
+    color: #e6e6e6;
+    -moz-flex-order: 10;
+    -webkit-order: 10;
+    -ms-flex-order: 10;
+    order: 10; } }
+@media screen and (max-width: 991px) {
+  .disco {
+    min-height: 470px; } }
+@media screen and (max-width: 415px) {
+  .disco {
+    min-height: 110vw; } }
+@media screen and (max-width: 230px) {
+  .disco {
+    min-height: 135vw; } }
+
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,54 @@
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+    Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://sass-lang.com/guide
+        http://www.google.com/fonts   
+*/
+//main.scss
+
+//variables
+
+$brand-color:#999999;
+$brand-yellow:#ffff66;
+
+//fonts
+body{
+    //font-family: 'Open Sans', sans-serif;
+    // font-family: Helvetica, sans-serif;
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    background: white;
+    padding: 0;
+}
+
+nav, footer{
+    font-family: 'Droid Serif', Georgia, Times, serif;
+}
+
+//mixins
+@mixin flex($order){
+    -moz-flex-order:$order;
+    -webkit-order: $order;
+    -ms-flex-order: $order;
+          order: $order;
+}
+//img
+img{
+    max-width: 100%;
+}
+//-----
+#page {
+  display: none;
+  background: white;
+  padding-top: 20px;
+}
+
+//Partials
+@import "partials/nav";
+@import "partials/footer";
+@import "partials/content";
+@import "partials/form";
+@import "partials/mediaQueries";
+
+
+

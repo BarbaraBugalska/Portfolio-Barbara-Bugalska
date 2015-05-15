@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 	<title>Barbara Bugalska|Designer and frond end developer</title>
+	 	
+		 <!--Google fonts link -->
+	 	<link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+	 	<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+		<!-- Bootstrap -->
+    	<link href="css/bootstrap.css" rel="stylesheet">
+  
+    	<!--link to myCss-->
+    	<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+
+	<body>
+		<header>
+			
+			<!--Bootstrap navbar-->
+			<nav class="navbar navbar-default PortfolioPieces">
+			  <div class="container-fluid">
+			     <a href="index.html"> <img class="logo" src="img/Logo_BB_3_lines.png" alt="image of letter B"></a>
+			    </div>
+
+  			</div><!-- /.container-fluid -->
+		</nav>
+		
+		</header>
+		<div id="page">
+		<div class="portfolio container-fluid mySilentFactory">
+			<div class="row ">
+				  <div class="col-sm-12 col-md-12 ">
+				    <div class="thumbnail">
+				      <div class="caption">
+				        <h1>mySilentFactory</h1>
+						<p>Logo and branding</p>
+						<hr>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="col-sm-12 col-md-12">
+				    <div class="thumbnail">
+				       <img src="img/mySilentFactory/mySilentFactory_logo_FULL.png" alt="logo">
+				    </div>
+				  </div>
+
+				
+				  <div class="col-sm-12 col-md-12">
+				    <div class="thumbnail">
+				      <img src="img/mySilentFactory/mysilentfactory_branding_1.jpg" alt="branding pieces">
+				    </div>
+				  </div>
+				
+				  <div class="col-sm-12 col-md-12">
+				    <div class="thumbnail">
+				      <img src="img/mySilentFactory/mysilentfactory_branding2.jpg" alt="branding pieces">
+				    
+				    </div>
+				  </div>				
+			
+
+				  <div class="col-sm-12 col-md-12">
+				    <div class="thumbnail card">
+				      <img src="img/mySilentFactory/Card_yellow.jpg" alt="yellow business card">
+				     
+				    </div>
+				  </div>
+				
+				  <div class="col-sm-12 col-md-12">
+				    <div class="thumbnail">
+				      <img src="img/mySilentFactory/Card_green.jpg" alt="green business card">
+				    
+				    </div>
+				  </div>
+				
+				  <div class="col-sm-12 col-md-12">
+				    <div class="thumbnail">
+				      <img src="img/mySilentFactory/packages.jpg" alt="packages">
+				    
+				    </div>
+				  </div>
+				
+				  <div class="col-sm-12 col-md-12">
+				    <div class="thumbnail">
+				      <img src="img/mySilentFactory/mysilentfactory_product_2.jpg" alt="handbag">
+				    
+				    </div>
+				  </div>
+				
+				  <div class="col-sm-12 col-md-12 description">
+				    <div class="thumbnail">
+				      <div class="text">
+				      	<hr>
+				    <p>mySilentFactory is a small company based in Ireland, specializing in handmade handbags, scarves and accessories.</p>
+					</div>
+				    </div>
+				  </div>
+				
+
+				
+				 
+			
+				</div>
+
+
+
+		
+
+		<footer>
+			<div>
+				<div class="logo_second1">
+				<a href="index.html"> <img class="logo_second" src="img/Logo_BB_3_lines_footer.png" alt="image of letter B"></a>
+				</div>
+				<p>barbarabugalska&#64gmail.com</p>
+				<p>barbara.bugalska&#64webinnovate.com | <a class="resume" href="resume.html">resume</a></p>
+			</div>
+		</footer>
+	</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<!-- Bootstrap Javascript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- My Custom Javascript(jQuery) -->
+    <script>
+    $(document).ready(function(){
+      
+      // ---- Animate effect for dropdown menu
+      //---https://api.jquery.com/click/
+      $(".dropdown-toggle").click(function(){
+       //---http://api.jquery.com/css/
+        if($(".navbar-toggle").css("display") === "none")  // disable on mobile
+        {
+          //---http://api.jquery.com/toggle/
+          $(".dropdown-menu").toggle( 400 );
+        }
+       });
+      //---------------------
+
+      //---http://api.jquery.com/fadein/
+      $("#page").fadeIn("slow");
+    });
+     </script>
+
+	</body>
+</html>

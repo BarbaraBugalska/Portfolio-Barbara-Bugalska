@@ -1,0 +1,53 @@
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+		Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://getbootstrap.com/components/#nav
+*/
+
+
+
+
+
+
+
+
+
+.navbar-default .navbar-brand.active{
+	background-color: $brand-yellow;
+	color: darken($brand-color, 35%);
+	text-align: middle;
+	float: none;
+}
+
+.navbar-default{
+	font-family: inherit;
+	padding: 65px 0 65px;
+	text-align: center;
+	h1{
+	 font-size: 12px;
+  	letter-spacing: .15em;
+  	text-transform: uppercase;
+  	font-weight: 700;
+  	margin: 0;
+  	width: auto;
+  	color: black;
+	}
+	h2{
+	max-width: 280px;
+  	margin: 0 auto;
+  	color: black;
+}
+}
+.separator {
+  	width: 40px;
+  	height: 1px;
+ 	margin: 15px auto;
+  	display: block;
+  	background-color: black;
+
+}
+.logo{
+	width: 72px;
+}
+

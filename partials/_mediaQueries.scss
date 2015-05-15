@@ -1,0 +1,125 @@
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+    Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+*/
+
+//Portfolio
+@media screen and (max-width: 700px){
+
+.text>p{
+  margin: 25px auto 25px auto;
+}
+
+
+.description>.thumbnail>.text>{
+  
+p{
+    text-align: left;
+    font-weight: 500;
+}
+}
+}
+
+@media screen and (max-width: 769px){
+
+//-----dropdown menu color and backgroud color
+.navbar-default .navbar-nav .open .dropdown-menu{
+	background-color: darken($brand-color,20%);
+	li a {
+		color: lighten($brand-color, 30%);
+	}
+}
+.contact, #home{
+   margin-bottom: 25px;
+}
+.right{
+  font-size: 14px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a{
+	background-color: $brand-yellow;
+}
+//-----
+
+  .flexbox .col>p{
+    font-size:14px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+//---profile page flexboxes font color, backgroun color and order
+.flexbox .col{
+	flex: 0 0 100%;
+}
+.f1 .col:nth-child(1) { 
+  	 @include flex(0);
+}
+.f1 .col:nth-child(2) { 
+  @include flex(11);
+}
+
+.f1 .col:nth-child(3) { 
+  	 @include flex(1);
+
+}
+.f1 .col:nth-child(4) { 
+   @include flex(2);
+}
+.f1 .col:nth-child(5) { 
+  	 @include flex(4);
+}
+.f1 .col:nth-child(6) { 
+   @include flex(3);
+}
+.f1 .col:nth-child(7) { 
+  	 @include flex(5);
+}
+.f1 .col:nth-child(8) { 
+   @include flex(6);
+}
+.f1 .col:nth-child(9) { 
+	background-color: $brand-yellow;
+	color: darken($brand-color, 35%);
+   @include flex(8);
+
+}
+.f1 .col:nth-child(10) { 
+ @include flex(7);
+}
+
+.f1 .col:nth-child(11) { 
+  	 @include flex(9);
+}
+.f1 .col:nth-child(12) { 
+	background-color: darken($brand-color, 35%);
+	color: lighten($brand-color, 30%);
+   @include flex(10);
+}
+
+}
+//--------
+
+//bug fix: Flip content disapearing on smaller screen size
+@media screen and (max-width: 991px){
+.disco { min-height: 470px; }
+}
+
+@media screen and (max-width: 415px){
+.disco { min-height: 110vw; }
+}
+
+@media screen and (max-width: 230px){
+.disco { min-height: 135vw; }
+}
+//--------
+

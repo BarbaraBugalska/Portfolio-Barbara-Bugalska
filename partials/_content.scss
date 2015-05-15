@@ -1,0 +1,146 @@
+
+
+
+//index page
+.indexPage {
+  margin-bottom: 50px;
+}
+.portfolio {
+	margin-top: 10px;
+  margin-left: 15px;
+.caption{
+	max-width: 400px;
+	margin: 0 auto;
+}
+	h3 {
+  	font-size: 10px;
+  	font-weight: 600;
+  	margin-top: 0;
+  	margin-bottom: 0;	
+}
+p {
+  		margin-bottom: 1px;
+  	}
+ //----styles for flip jQuery plugin	
+.front {
+  width: 100%!important;
+  height: 100%!important;
+}
+  
+.disco {
+  overflow: visible;
+  height: 100%;
+}
+
+.back {
+  .backContent {
+    padding-left: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+//-------------
+
+
+//---http://demosthenes.info/blog/532/Convert-Images-To-Black-And-White-With-CSS
+.home{
+  img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' 
+    xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'>
+    <feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' />
+    </filter></svg>#greyscale");
+    &:hover {
+      -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);    }
+  }
+}
+}
+
+
+.caption{
+  text-align: center;
+  h2{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0; 
+
+    
+
+  }
+}
+
+
+.thumbnail{
+  border: none;
+}
+
+
+
+//mySilentFactory and other portfolio sites
+.PortfolioPieces{
+  padding: 25px 0 25px 0;
+}
+.mySilentFactory .thumbnail{
+  border: none;
+}
+
+.description>.thumbnail>.text>{
+  
+p, h4{
+  color: #737373;
+    text-align: right;
+    font-weight: 600;
+}
+}
+.text{
+p{
+  margin: 25px 35px 25px 50%;
+}
+h4{margin: 5px 35px 5px 50%;
+
+}
+}
+/*}
+//contact page
+.contact{
+  margin-bottom: 170px;
+  color: $brand-color;
+  text-align: center;
+  h1{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px
+  }
+  .glyphicon, .fa-users{
+    font-size: 30px;
+    color: darken($brand-color, 20%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+  .fa-spotify, .fa-youtube-square, .fa-facebook-official, .fa-twitter-square{
+    font-size: 40px;
+    color: $brand-color;
+    padding: 10px;
+    &:hover{
+      color: $brand-yellow;
+      background-color: $brand-color;
+    }
+  }
+}
+.KeepInTouch {
+  padding: 10px 10% 20px 10%;
+  background-color: lighten($brand-color, 35%);
+  hr{
+    border-color: $brand-color;
+  }
+}
+*/

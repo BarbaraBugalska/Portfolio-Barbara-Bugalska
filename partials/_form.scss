@@ -1,0 +1,40 @@
+/* 	Author: Barbara Bugalska
+		Assignment: WI.2.HTML Assignment, Digital Skills Academy		
+		Student ID: D14126227
+		Date: 2015/04/19
+		Ref: http://getbootstrap.com/css/#forms
+		https://css-tricks.com/snippets/css/glowing-blue-input-highlights/
+		https://css-tricks.com/snippets/css/style-placeholder-text/
+
+*/
+
+//form for contact page
+
+label {
+	font-weight: 600;
+}
+.form-control {
+	box-shadow: none;
+
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+	&:focus {
+		border-color: $brand-color;
+		box-shadow: 0 0 5px rgba(255, 255, 51, 1);
+}
+}
+
+.contactButton {
+	font-weight: bold;
+	padding: 6px 30px;
+	background-color: $brand-yellow;
+	&:hover{
+		background-color: darken($brand-yellow, 20%);
+	}
+	&:focus{
+		border-color: $brand-color;
+		 box-shadow: 0 0 5px rgba(255, 255, 51, 1);
+
+	}}
